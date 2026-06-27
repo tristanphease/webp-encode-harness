@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+# our rust
+# image-webp = "0.2.4"
+image-webp = { path = "../image-webp" }
+# for converting using libwebp
+webp = "0.3.1"
